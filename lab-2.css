@@ -1,0 +1,98 @@
+*{
+    align-items: center;
+}
+header{
+    display: flex;
+    align-items: centre;
+    flex-direction: row;
+    justify-content: space-between;
+    border:10px solid black;
+    color:white;
+    background-color: black;
+}
+
+nav,ul,li{
+    margin-right: 5px;
+    list-style-type: none;
+    display: inline; 
+}
+
+h3{
+    margin: 0;
+    padding: 0px 20px;
+}
+nav{
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+footer{
+    display:flex;
+    border:1px solid black;
+    bottom: 0;
+    position: fixed;
+    width:98.7%;
+    justify-content: center;
+    color:white;
+    background-color: black;
+}
+
+#About{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0px;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+}
+
+#img1{
+    height: 400;
+    width:600;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    display: block;
+    margin:0 auto;
+    padding-bottom: 50px;
+}
+
+#img2,#img3{
+    display: flex;  
+    justify-content: center;
+}
+#img2{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+#img3{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+#pictures{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#Services{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;   
+}
+
+#pictures{
+    display:flex;
+}
+
+figure{
+    margin: 0;
+    padding: 5px;
+    
+    border: 1px solid black;
+}
+figcaption{
+    display: flex;
+    justify-content: center;
+}
